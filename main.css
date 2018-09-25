@@ -91,6 +91,27 @@ header[role="banner"] {
   font-weight: 600;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(212,92,52);
+}
+
+/*
+.underline {
+  text-decoration: underline;
+  -webkit-text-decoration-color: rgb(212,92,52);
+  text-decoration-color: rgb(212,92,52); 
+ }*/
+
+.underline {
+  border-bottom: 5px solid rgb(212,92,52);
+}
+
+p + p {
+  display: inline-block;
+  margin-bottom: 55px;
+}
+
 @media only screen and (max-width: 600px)  {
   header {
     padding-top: 25%; 
