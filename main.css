@@ -113,4 +113,13 @@ p + p {
   nav {
     text-align: center;
   }
+
+  .header-one {
+    font-size: 1.4em;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
 }
