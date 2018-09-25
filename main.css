@@ -96,13 +96,6 @@ a {
   color: rgb(212,92,52);
 }
 
-/*
-.underline {
-  text-decoration: underline;
-  -webkit-text-decoration-color: rgb(212,92,52);
-  text-decoration-color: rgb(212,92,52); 
- }*/
-
 .underline {
   border-bottom: 5px solid rgb(212,92,52);
 }
