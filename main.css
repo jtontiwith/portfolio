@@ -2,6 +2,42 @@
   box-sizing: border-box;
 }
 
+/* STUFF TO PLAY WITH  
+
+font-family: raleway,helveticaneue,helvetica neue,Helvetica,Arial,sans-serif;
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Lato', sans-serif;
+
+*/
+
+.button {
+  background-color: rgb(108,148,172);
+  border: none;
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  font-size: 14px;
+  margin: 4px 2px;
+  opacity: 0.75;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 2px;
+  /*width: 140px;*/
+  margin-bottom: 15px;
+}
+
+.button + .button {
+  border: 2px solid rgb(108,148,172);
+  background-color: white;
+  color: rgb(108,148,172);
+  padding: 12px 18px;
+}
+
+
 body {
   font-family: "Open Sans",
   sans-serif; 
@@ -29,12 +65,25 @@ nav {
 
 
 h1 {
-  font-family: 'Lato', sans-serif;
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Raleway', Helvetica,Arial,sans-serif;
   letter-spacing: 1px;
+  font-size: 2.6rem;
+  margin-bottom: 0px !important;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0px;
+  line-height: 138%;
 }
 
 figcaption, p, footer {
-  font-family: 'Poppins', sans-serif;
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
 }
 
 figcaption {
@@ -52,10 +101,15 @@ nav {
 }
 
 
+h3 {
+  font-size: 1.7rem;
+  font-family: 'Raleway';
+
+}
 
 header {
   /*padding: 12% 0;*/
-  padding-top: 10%; 
+  padding-top: 5%; 
 }
 
 section {
@@ -76,7 +130,7 @@ section:nth-child(even) {
 
 .profile-img {
   width: 100%;
-  max-width: 120px;
+  max-width: 100px;
   height: auto;
   border-radius: 50%;
    
