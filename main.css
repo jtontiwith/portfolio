@@ -42,8 +42,7 @@ a {
 }
 
 body {
-  font-family: "Open Sans",
-  sans-serif; 
+  font-family: "Open Sans", sans-serif; 
   font-size: 20px;
   color: #444;
   text-align: center;
@@ -166,6 +165,12 @@ a {
 
 /* FORM */
 
+legend {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
 fieldset {
   border: 0;
 }
@@ -179,14 +184,18 @@ input, textarea {
   border-radius: 2px;
   border: 0;
   padding: 5px;
+  font-family: "Open Sans", sans-serif; 
+  font-size: 17px;
 }
 
-input {
-  
-  height: 25px;
-  
-}
 
+
+input[type="submit"] {
+  background-color: rgb(108,148,172);
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 0 10px 0;
+}
 
 fieldset div {
   margin-bottom: 15px;
