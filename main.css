@@ -164,6 +164,36 @@ a {
   border-bottom: 5px solid rgb(212,92,52);
 }
 
+/* FORM */
+
+fieldset {
+  border: 0;
+}
+
+label {
+  display: none;
+}
+
+input, textarea {
+  width: 70%;
+  border-radius: 2px;
+  border: 0;
+  padding: 5px;
+}
+
+input {
+  
+  height: 25px;
+  
+}
+
+
+fieldset div {
+  margin-bottom: 15px;
+}
+
+/* END FORM */
+
 p + p {
   display: inline-block;
   margin-bottom: 55px;

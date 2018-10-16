@@ -69,10 +69,23 @@
   </main>
   <footer role="content-info">
     <form action="https://formspree.io/jtonti@gmail.com" method="POST">
-      <input type="text" name="name">
-      <input type="email" name="_replyto">
-      <textarea name="message" cols="30" rows="10"></textarea>
-      <input type="submit" value="Send">
+      <fieldset>
+        <legend>Make an Inquiry</legend>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Name">
+        </div>
+        <div>
+          <label for="_replyto">Email</label>
+          <input type="email" name="_replyto" placeholder="email">
+        </div>
+        <div>
+          <label for="message">Inquiry</label>
+          <textarea name="message" cols="30" rows="10"></textarea>
+        </div>
+        
+        <input type="submit" value="Send">
+      </fieldset>  
     </form>
   </footer>
 </body>
