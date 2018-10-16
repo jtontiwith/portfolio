@@ -4,7 +4,7 @@
   <title>HTML wireframe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--<link href="https://fonts.googleapis.com/css?family=Lato|Poppins:400,600" rel="stylesheet">-->
-  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Poppins:400,600|Raleway:200,300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,600,700|Poppins:400,600|Raleway:200,300" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
@@ -17,7 +17,7 @@
       <h1 class="header-one">Jon Tonti</h1>
       <h3>Full Stack JavaScript Developer</h3>
       <a class="button" target="_blank" href="https://github.com/jtontiwith">GitHub</a><a class="button" target="_blank" href="https://youtu.be/Ys-YcC63dgE">Show Me</a>
-      <p>I like building tools that help users make plans, concept ideas, participate in markets, etc. The world is a forum for action, and I like building the digital tools that help users focus their actions for better results. When I’m not in a code editor I can be found planting vegetables, hiking in the woods, and musing about whether the latest technology tools are any better than pen and paper.</p>
+      <p class="bio">I like building tools that help users make plans, concept ideas, participate in markets, etc. The world is a forum for action, and I like building the digital tools that help users focus their actions for better results. When I’m not in a code editor I can be found planting vegetables, hiking in the woods, and musing about whether the latest technology tools are any better than pen and paper.</p>
       <p class="bold underline">Here's a few thing's I've made lately...</p>
     </header>
 
@@ -67,7 +67,14 @@
       </figure>
     </section>
   </main>
-  <footer role="content-info">Contact me at jtonti@gmail.com</footer>
+  <footer role="content-info">
+    <form action="http://formspree.io/jtonti@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your name">
+      <input type="email" name="email" placeholder="Email">
+      <textarea name="message" id="" cols="30" rows="10"></textarea>
+      <button>Submit</button>
+    </form>
+  </footer>
 </body>
 </html>
 

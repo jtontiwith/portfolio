@@ -37,6 +37,9 @@ font-family: 'Lato', sans-serif;
   padding: 12px 18px;
 }
 
+a {
+  font-weight: 600;
+}
 
 body {
   font-family: "Open Sans",
@@ -79,6 +82,13 @@ h3 {
 p {
   margin-top: 0px;
   line-height: 138%;
+}
+
+.bio {
+  max-width: 82%;
+  margin: 0 auto 25px auto;
+  text-align: justify;
+  
 }
 
 figcaption, p, footer {
@@ -142,7 +152,7 @@ header[role="banner"] {
 }
 
 .bold {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 a {
