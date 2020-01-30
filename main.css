@@ -13,7 +13,7 @@ font-family: 'Lato', sans-serif;
 */
 
 .button {
-  background-color: rgb(108,148,172);
+  background-color: rgb(108, 148, 172);
   border: none;
   color: white;
   padding: 14px 20px;
@@ -41,10 +41,9 @@ header section.portfolio-pieces {
   padding: 0 10px 0 10px;
   box-sizing: border-box;
   text-align: left;
-  
 }
 
-.corner-ribbon{
+.corner-ribbon {
   width: 200px;
   background: #000;
   position: absolute;
@@ -60,14 +59,14 @@ header section.portfolio-pieces {
 }
 
 .ribbon-link {
-  color: #00d8ff;
+  color: #ffffff;
   cursor: pointer;
 }
 
 .flex-cell {
   box-sizing: border-box;
-  flex: 0 0 25%;
-  
+  flex: 0 0 50%;
+
   /*width: 25%;*/
 }
 
@@ -79,8 +78,7 @@ header section.portfolio-pieces {
   .flex-cell {
     flex: 0 0 50%;
     margin-bottom: 20px;
-  
-  } 
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -90,14 +88,13 @@ header section.portfolio-pieces {
   .flex-cell {
     flex-basis: 100%;
     margin-bottom: 20px;
-  }  
-
+  }
 }
 
 .button + .button {
-  border: 2px solid rgb(108,148,172);
+  border: 2px solid rgb(108, 148, 172);
   background-color: white;
-  color: rgb(108,148,172);
+  color: rgb(108, 148, 172);
   padding: 12px 18px;
 }
 
@@ -106,7 +103,7 @@ a {
 }
 
 body {
-  font-family: "Open Sans", sans-serif; 
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   color: #444;
   text-align: center;
@@ -120,19 +117,18 @@ footer {
 }
 
 footer {
-  background-color: rgb(108,148,172);
+  background-color: rgb(108, 148, 172);
 }
 
 nav {
   text-align: left;
   padding-left: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
 
 h1 {
   /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Raleway', Helvetica,Arial,sans-serif;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   font-size: 2.6rem;
   margin-bottom: 0px !important;
@@ -152,12 +148,13 @@ p {
   max-width: 82%;
   margin: 0 auto 0px auto;
   text-align: center;
-  
 }
 
-figcaption, p, footer {
+figcaption,
+p,
+footer {
   /*font-family: 'Poppins', sans-serif;*/
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 figcaption {
@@ -170,30 +167,46 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
-  background-color: rgb(100,116,124);
-  color: rgb(244,244,244)
+  background-color: rgb(100, 116, 124);
+  color: rgb(244, 244, 244);
 }
-
 
 h3 {
   font-size: 1.7rem;
-  font-family: 'Raleway';
-
+  font-family: "Raleway";
 }
 
 header {
   /*padding: 12% 0;*/
-  padding-top: 5%; 
+  padding-top: 5%;
 }
 
 section {
   min-height: 200px;
   padding: 3% 0;
-  background-color: rgb(196,212,220);
+  background-color: rgb(196, 212, 220);
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+}
+
+.old-projects {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+figure {
+  width: 33%;
+  font-size: 17px;
 }
 
 section:nth-child(even) {
-  background-color: rgb(244,244,244);
+  background-color: rgb(244, 244, 244);
 }
 
 .responsive-img {
@@ -213,7 +226,6 @@ section:nth-child(even) {
   max-width: 100px;
   height: auto;
   border-radius: 50%;
-   
 }
 
 header[role="banner"] {
@@ -227,11 +239,11 @@ header[role="banner"] {
 
 a {
   text-decoration: none;
-  color: rgb(212,92,52);
+  color: rgb(212, 92, 52);
 }
 
 .underline {
-  border-bottom: 5px solid rgb(212,92,52);
+  border-bottom: 5px solid rgb(212, 92, 52);
 }
 
 /* FORM */
@@ -250,19 +262,18 @@ label {
   display: none;
 }
 
-input, textarea {
+input,
+textarea {
   width: 70%;
   border-radius: 2px;
   border: 0;
   padding: 5px;
-  font-family: "Open Sans", sans-serif; 
+  font-family: "Open Sans", sans-serif;
   font-size: 17px;
 }
 
-
-
 input[type="submit"] {
-  background-color: rgb(108,148,172);
+  background-color: rgb(108, 148, 172);
   border: 2px solid #fff;
   color: #fff;
   padding: 10px 0 10px 0;
@@ -282,10 +293,21 @@ fieldset div {
 }
 
 /* END FORM */
+@media only screen and (max-width: 1050px) {
+  .old-projects {
+    flex-direction: column;
+  }
 
-@media only screen and (max-width: 600px)  {
+  figure {
+    width: 80%;
+    font-size: 20px;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   header {
-    padding-top: 25%; 
+    padding-top: 25%;
   }
 
   nav {
@@ -302,9 +324,8 @@ fieldset div {
   }
 
   p + p {
-    font-size: 14
+    font-size: 14;
   }
-
 }
 
 /* Color Pallet https://www.dtelepathy.com/blog/wp-content/uploads/2013/07/Color-Palette-Post-45-scott.png */
